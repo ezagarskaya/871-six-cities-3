@@ -8,5 +8,5 @@ const placesCount = 312;
 ReactDOM.render(
     <App
       placesCount={placesCount}
-      offers={offers}
+      offers={offers[0]}
     />, document.getElementById(`root`));
